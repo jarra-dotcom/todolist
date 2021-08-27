@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/status_title" android:title="Is this task completed?" />
+    <group android:id="@+id/grp1">
+        <item android:id="@+id/status_yes" android:title="Yes" />
+    </group>
+    <group android:id="@+id/grp2">
+        <item android:id="@+id/status_no" android:title="No" />
+    </group>
+</menu>
